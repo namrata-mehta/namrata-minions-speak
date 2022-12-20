@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,700&display=swap");
+
+:root {
+  --primary-color: #f2c94c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  color: #333333;
+}
+
+nav {
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 0.5rem;
+}
+
+/* header */
+header {
+  max-width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+header img {
+  width: 100%;
+}
+
+/* main */
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+#txtInput {
+  display: block;
+  margin-top: 2rem;
+  height: 20vh;
+  width: 100%;
+  font-family: inherit;
+  font-size: large;
+}
+
+#btnTranslate {
+  background-color: var(--primary-color);
+  font-size: large;
+  border: 0;
+  border-radius: 1rem;
+  font-family: inherit;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+}
+
+#output {
+  border: 1px solid black;
+  height: 15vh;
+  /* min-height: 10vh;
+  max-height: 20vh; */
+  width: 100%;
+  overflow: scroll;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  width: 100%;
+}
+
+.footer-header {
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  max-width: 600px;
+  margin: auto;
+  font-size: large;
+}
+
+footer p:last-child {
+  font-size: 110%;
+  margin-top: 1rem;
+}
+
+ion-icon {
+  vertical-align: middle;
+  font-size: 120%;
+}
